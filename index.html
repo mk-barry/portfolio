@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio de Barry</title>
+</head>
+<body>
+    <nav class="black">
+        <div class="nom"><span class="blue">BARRY</span>MBATSWE</div>
+        <div class="links">
+            <a href="#me">accueil</a>
+            <a href="#description">à propos</a>
+            <a href="#projets">projets</a>
+            <a href="#competences">compétences</a>
+            <a href="#contact">contact</a>
+        </div>
+    </nav>
+    <main>
+        <section id="me" class="white  section">
+            <div class="infos">
+                <p>
+                    Je suis <span class="blue">Barry</span>, Développeur en devenir passioné par le web et le design !
+                </p>
+                <a href="#projets">Voir mes projets</a>
+            </div>
+            <!-- <div class="infos"> -->
+                <img src="assets/cv-img.jpg" alt="">
+            <!-- </div> -->
+        </section>
+        <section id="description" class="grey  section">
+            <header>à propos</header>
+            <div class="container">
+                <div class="details">
+                    <p>Je m'appelle <span class="blue">Barry</span> passionné par la création de sites modernes et interactifs</p>
+                    <p>Je suis actuellement en <span>developpement web</span> et je cherche à améliorer mes compétences en JavaScript, HTML et CSS.</p>
+                    <p>J'adore transformer mes idées en projets concrets et experimenter avec de nouvelles technologies.</p>
+                    <a href="assets/CV-Barry.pdf" download="CV-de-Barry.pdf">Télécharger mon CV</a>
+                </div>
+                <div class="img">
+                    <img src="assets/moi.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="projets" class="white section">
+            <header>Mes Projets</header>
+            <div class="container">
+                <div class="card">
+                    <p>Un site web de vente de téléphones.</p>
+                    <div class="view">
+                        <span>#html, #css, #js</span>
+                        <a href="https://mkphonestore.vercel.app/" target="_blank">Voir</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <p>Un mini-jeu interactif de demineur en JavaScript.</p>
+                    <div class="view">
+                        <span>#html, #css, #js</span>
+                        <a href="https://mk-games.vercel.app/mk-demineur/game.html" target="_blank">Voir</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <p>Un mini-jeu interactif de tic-tac-toe en JavaScript.</p>
+                    <div class="view">
+                        <span>#html, #css, #js</span>
+                        <a href="https://mk-games.vercel.app/mk-tic-tac-toe/game.html" target="_blank">Voir</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="competences" class="grey section">
+            <header style="color: var(--black);">Mes compétences</header>
+            <div class="container">
+                <div class="card">
+                    <p>Soft skills</p>
+                    <div class="progress">
+                        <div class="progressbar">
+                            <span>Gestion de projets</span>
+                            <div class="percent">
+                                <div class="blue p1" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="progressbar">
+                            <span>Résolution de problèmes</span>
+                            <div class="percent">
+                                <div class="blue p2" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="progressbar">
+                            <span>Adaptatibilité</span>
+                            <div class="percent">
+                                <div class="blue p3" data-width="87"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <p>Hard skills</p>
+                    <div class="progress">
+                        <div class="progressbar">
+                            <span>HTML</span>
+                            <div class="percent">
+                                <div class="blue p4" data-width="93"></div>
+                            </div>
+                        </div>
+                        <div class="progressbar">
+                            <span>CSS</span>
+                            <div class="percent">
+                                <div class="blue p5" data-width="73"></div>
+                            </div>
+                        </div>
+                        <div class="progressbar">
+                            <span>JavaScript</span>
+                            <div class="percent">
+                                <div class="blue p6" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="progressbar">
+                            <span>VS code</span>
+                            <div class="percent">
+                                <div class="blue p7" data-width="98"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact"  class="black section">
+            <div class="head">
+                <span class="big">Vous avez un <span class="blue">projet en tête ?</span></span>
+                <span class="small">N'hésitez pas à <span class="blue">me contacter</span></span>
+            </div>
+            <form action="" method="post">
+                <fieldset>
+                    <label for="prenom">
+                        Votre Prénom
+                        <input type="text" name="" id="prenom" required placeholder="Luma">
+                    </label>
+                    <label for="nom">
+                        Votre Nom
+                        <input type="text" name="" id="nom" required placeholder="Abene">
+                    </label>
+                </fieldset>
+                <label for="sujet" class="diff">
+                    Votre Sujet
+                    <input type="text" name="" id="sujet" required placeholder="Développement d'un site vitrine">
+                </label>
+                <label for="message" class="diff">
+                    <textarea name="" id="message" placeholder="Votre message ici" required></textarea>
+                </label>
+                <input type="submit" value="ENVOYER">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="design">
+            <p>Designé par <span class="blue">Barry</span> avec HTML and CSS</p>
+        </div>
+        <div class="right">
+            <p>Tous droits réservés &copy; 2025.</p>
+        </div>
+    </footer>
+</body>
+</html>
