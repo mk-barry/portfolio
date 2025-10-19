@@ -7,10 +7,10 @@
 
     .nom{
         width: 10% !important;
-        font-size: 0.5rem !important;
+        font-size: 1.2rem !important;
     }
 
-    .links{
+    /* .links{
         width: 70% !important;
         gap: 0.5rem !important;
         display: flex !important;
@@ -20,26 +20,78 @@
             font-size: 0.5rem;
         }
     }
-
-    .links>label>.bi-list{
-        display: flex !important;
-    }
-
-    .links:has(input:checked)>label>.bi-list{
-        display: none !important;
-    }
-
-    .links:has(input:checked)>label>.bi-chevron-contract{
-        display: flex !important;
-    }
-
+    
     .infos a{
-        /* padding: 0 !important; */
         font-size: 0.6rem !important;
     }
 
     .infos img{
         height: 40% !important;
+    } */
+
+    .bi{
+        transition: all 0.8s ease-in !important;
+    }
+
+    .links{
+        label{
+            display: flex !important;
+
+            .bi-list{
+                display: flex;
+            }
+
+            .bi-chevron-contract{
+                display: none;
+            }
+        }
+
+        .a{
+            display: none !important;
+        }
+    }
+
+    .links:has(input:checked){
+        display: flex !important;
+        flex-direction: column !important;
+
+        .bi-list{
+            display: none;
+        }
+
+        .bi-chevron-contract{
+            display: flex;
+        }
+        .a{
+            justify-content: right !important;
+            display: flex !important;
+            flex-direction: column !important;
+            gap: 0.1rem !important;
+        }
+    }
+
+    .links:has(input:checked)>label{
+        display: flex;
+        
+    }
+
+    .links{
+        gap: 0.5rem !important;
+
+        a{
+            font-size: 0.8rem;
+        }
+    }
+
+    #me .infos{
+        justify-content: center !important;
+        align-items: center !important;
+        height: 100% !important;
+        width: 100% !important;
+    }
+
+    #me img{
+        display: none;
     }
 
     #description .container .details{
@@ -111,6 +163,7 @@
     }
 
 }
+
 
 
 
