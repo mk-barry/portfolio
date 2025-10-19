@@ -20,7 +20,8 @@
     }
 
     .infos a{
-        padding: 0 !important;
+        /* padding: 0 !important; */
+        font-size: 0.6rem !important;
     }
 
     .infos img{
@@ -95,6 +96,7 @@
     }
 
 }
+
 
 
 
