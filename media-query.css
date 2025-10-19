@@ -7,6 +7,7 @@
 
     .nom{
         width: 20% !important;
+        font-size: 0.8rem !important;
     }
 
     .links{
@@ -27,6 +28,8 @@
     }
 
     #description .container .details{
+        width: 60% !important;
+        align-items: center !important;
         a{
             width: 60% !important;
         }
@@ -90,4 +93,5 @@
     footer{
         font-size: 0.7rem !important;
     }
+
 }
