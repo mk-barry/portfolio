@@ -44,7 +44,7 @@ header{
 }
 
 section{
-    height: 34rem !important;
+    height: 36rem !important;
 }
 
 section:target{
@@ -466,6 +466,7 @@ footer{
     }
 
 }
+
 
 
 
