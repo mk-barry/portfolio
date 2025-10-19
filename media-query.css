@@ -60,7 +60,7 @@
         display: flex !important;
         flex-direction: row-reverse !important;
         justify-content: right !important;
-        gap: 1.2rem;
+        gap: 1.2rem !important;
 
         .bi-list{
             visibility: hidden;
@@ -173,6 +173,7 @@
     }
 
 }
+
 
 
 
