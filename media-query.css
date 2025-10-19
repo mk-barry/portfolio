@@ -57,7 +57,8 @@
 
     .links:has(input:checked){
         display: flex !important;
-        /* flex-direction: column !important; */
+        flex-direction: row-reverse !important;
+        justify-content: space-around !important;
 
         .bi-list{
             visibility: hidden;
@@ -169,6 +170,7 @@
     }
 
 }
+
 
 
 
