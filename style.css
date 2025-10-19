@@ -43,22 +43,13 @@ header{
     font-weight: 600;
 }
 
-/* a.active{
-    color: var(--blue);
-} */
+section{
+    height: 33rem !important;
+}
 
 section:target{
     scroll-margin-top: 7rem;
 }
-
-/* main:has(div[id="competences"]:target) ~ nav{
-    background-color: red;
-    .links{
-        a[href="competences"]{
-            color: red;
-        }
-    }
-} */
 
 .grey{
     background-color: whitesmoke;
@@ -475,6 +466,7 @@ footer{
     }
 
 }
+
 
 
 
