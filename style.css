@@ -1,6 +1,6 @@
 :root{
     --black: #212121;
-    --blue: #02ffd5;
+    --blue: #ff3d02;
     --small-p: 1.2rem;
     --big-p: 2.7rem;
     --a-size: 2rem;
@@ -436,4 +436,5 @@ footer{
         display: flex;
         justify-content: right;
     }
+
 }
