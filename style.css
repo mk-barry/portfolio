@@ -91,6 +91,14 @@ nav{
         justify-content: right;
         gap: 1.5rem;
 
+        input{
+            display: none;
+        }
+
+        label{
+            display: none;
+        }
+
         a{
             color: whitesmoke;
             text-decoration: none;
@@ -438,5 +446,6 @@ footer{
     }
 
 }
+
 
 
