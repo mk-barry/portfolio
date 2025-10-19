@@ -6,8 +6,8 @@
     }
 
     .nom{
-        width: 20% !important;
-        font-size: 0.8rem !important;
+        width: 10% !important;
+        font-size: 0.6rem !important;
     }
 
     .links{
@@ -95,5 +95,6 @@
     }
 
 }
+
 
 
