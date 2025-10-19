@@ -30,19 +30,21 @@
     } */
 
     .bi{
-        transition: all 0.8s ease-in !important;
+        transition: all 0.4s ease-in !important;
     }
 
     .links{
         label{
+            position: relative;
             display: flex !important;
 
-            .bi-list{
-                display: flex;
+            .bi{
+                position: absolute;
             }
 
             .bi-chevron-contract{
-                display: none;
+                visibility: hidden;
+                opacity: 0;
             }
         }
 
@@ -56,11 +58,13 @@
         flex-direction: column !important;
 
         .bi-list{
-            display: none;
+            visibility: hidden;
+            opacity: 0;
         }
 
         .bi-chevron-contract{
-            display: flex;
+            visibility: visible !important;
+            opacity: 1 !important;
         }
         .a{
             justify-content: right !important;
@@ -163,6 +167,7 @@
     }
 
 }
+
 
 
 
