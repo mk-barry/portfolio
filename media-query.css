@@ -37,6 +37,8 @@
         label{
             position: relative;
             display: flex !important;
+            height: 100%;
+            align-items: center;
 
             .bi{
                 position: absolute;
@@ -167,6 +169,7 @@
     }
 
 }
+
 
 
 
