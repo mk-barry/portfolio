@@ -79,11 +79,11 @@
 
     #contact form fieldset label{
         font-size: 0.8rem !important;
+    }
 
-        input::placeholder, textarea::placeholder{
-            font-size: 0.8rem !important;
-            color: #ff3d02;
-        }
+    input::placeholder, textarea::placeholder{
+        font-size: 0.8rem !important;
+        color: var(--blue);
     }
 
     #contact form input[type ="submit"]{
@@ -97,6 +97,7 @@
     }
 
 }
+
 
 
 
