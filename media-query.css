@@ -13,10 +13,24 @@
     .links{
         width: 70% !important;
         gap: 0.5rem !important;
-
+        display: flex;
+        flex-direction: column;
+        
         a{
             font-size: 0.5rem;
         }
+    }
+
+    .links>label>.bi-list{
+        display: flex;
+    }
+
+    .links:has(input:checked)>label>.bi-list{
+        display: none;
+    }
+
+    .links:has(input:checked)>label>.bi-chevron-contract{
+        display: flex;
     }
 
     .infos a{
@@ -97,6 +111,7 @@
     }
 
 }
+
 
 
 
