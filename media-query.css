@@ -73,6 +73,7 @@
         .a{
             justify-content: right !important;
             display: flex !important;
+            width: 40%;
             flex-direction: column !important;
             gap: 0.1rem !important;
         }
@@ -80,7 +81,7 @@
 
     .links:has(input:checked)>label{
         display: flex;
-        
+        width: 10%;
     }
 
     .links{
@@ -171,6 +172,7 @@
     }
 
 }
+
 
 
 
