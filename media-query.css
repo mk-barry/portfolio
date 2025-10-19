@@ -82,7 +82,7 @@
 
     .links:has(input:checked)>label{
         display: flex;
-        width: 10%;
+        /* width: 10%; */
     }
 
     .links{
@@ -173,6 +173,7 @@
     }
 
 }
+
 
 
 
