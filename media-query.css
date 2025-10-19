@@ -1,0 +1,93 @@
+@media screen and (max-width: 768px) {
+    :root{
+        --small-p: 0.9rem !important;
+        --big-p: 1.5rem !important;
+        --a-size: 0.8rem !important;
+    }
+
+    .nom{
+        width: 20% !important;
+    }
+
+    .links{
+        width: 60% !important;
+        gap: 0.5rem !important;
+
+        a{
+            font-size: 0.8rem;
+        }
+    }
+
+    .infos a{
+        padding: 0 !important;
+    }
+
+    .infos img{
+        height: 40% !important;
+    }
+
+    #description .container .details{
+        a{
+            width: 60% !important;
+        }
+    }
+
+    #description .img{
+        align-items: center;
+    }
+
+    #description .img img{
+        width: 150px !important;
+        height: 150px !important;
+    }
+
+    #projets .container .card p{
+        font-size: 0.8rem !important;
+    }
+
+    #projets .container .card .view {
+        font-size: 0.8rem !important;
+
+        a{
+            font-size: 0.8rem !important;
+        }
+    }
+
+    #competences .container .card{
+        height: 50% !important;
+    }
+
+    #competences .container .card .progress .progressbar{
+        font-size: 0.8rem !important;
+    }
+
+    #competences .container .card .progress .progressbar .percent{
+        height: 0.4rem !important;
+    }
+
+    #contact .head .big{
+        font-size: 1.7rem !important;
+    }
+
+    #contact .head .small{
+        font-size: 1.4rem !important;
+    }
+
+    #contact form fieldset label{
+        font-size: 0.8rem !important;
+
+        input::placeholder, textarea::placeholder{
+            font-size: 0.8rem !important;
+        }
+    }
+
+    #contact form input[type ="submit"]{
+        width: 40% !important;
+        font-size: 0.6rem !important;
+        padding: 0.2rem !important;
+    }
+
+    footer{
+        font-size: 0.7rem !important;
+    }
+}
